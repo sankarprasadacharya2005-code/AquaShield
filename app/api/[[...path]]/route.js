@@ -8,6 +8,7 @@ const SEED_STATIONS = [
   { id: 'st-od-rkl', name: 'Brahmani River Monitor', city: 'Rourkela', district: 'Sundargarh', lat: 22.2604, lng: 84.8536, base: { ph: 7.4, turbidity: 4.8, temp: 33.2, do: 6.1, hospitalCases: 18, prevWeekCases: 20, complaints: 5, rainfall: 5 } },
   { id: 'st-od-puri', name: 'Narendra Tank Station', city: 'Puri', district: 'Puri', lat: 19.8135, lng: 85.8312, base: { ph: 7.8, turbidity: 3.1, temp: 29.5, do: 7.4, hospitalCases: 8, prevWeekCases: 12, complaints: 1, rainfall: 0 } },
   { id: 'st-od-sbp', name: 'Hirakud Reservoir Station', city: 'Sambalpur', district: 'Sambalpur', lat: 21.4669, lng: 83.9812, base: { ph: 7.1, turbidity: 1.8, temp: 34.0, do: 7.0, hospitalCases: 15, prevWeekCases: 15, complaints: 3, rainfall: 2 } },
+  { id: 'st-od-ganjam', name: 'Rushikulya River Station', city: 'Chhatrapur', district: 'Ganjam', lat: 19.3500, lng: 84.7800, base: { ph: 7.3, turbidity: 3.5, temp: 30.5, do: 6.2, hospitalCases: 15, prevWeekCases: 14, complaints: 3, rainfall: 0 } },
 ]
 
 function computeReadings(station, override, hospitalStats = null) {
